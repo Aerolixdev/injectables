@@ -1,11 +1,13 @@
 {
-  "title": "School Cheats Mode",
-  "description": "Cheat Scripts from school cheats",
-  "author": "AerolixDev",
-  "url": "https://thatfrueddued.github.io/blooket-utility-injectables/injectables/darkMode/injectable.json",
+  "title": "School CHeats",
+  "description": "SchoolCHeats",
+  "author": "aerolixdev",
+  "url": "https://aerolixdev.github.io/injectables/school/injectable.json",
   "scripts": [
     "https://thatfrueddued.github.io/blooket-utility-injectables/injectables/darkMode/setup.js",
 		"https://unpkg.com/darkreader@4.9.46/darkreader.js",
 		"https://thatfrueddued.github.io/blooket-utility-injectables/injectables/darkMode/darkMode.js"
   ],
+  "setupScript": "https://thatfrueddued.github.io/blooket-utility-injectables/injectables/darkMode/setup.js",
+  "cleanupScript": "https://thatfrueddued.github.io/blooket-utility-injectables/injectables/darkMode/cleanup.js"
 }
